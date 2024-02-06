@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import localFont from 'next/font/local'
+import { Toaster } from "@/components/ui/toaster";
 
 const inter = Inter({ subsets: ["latin"] });
 const roboto = localFont({
@@ -36,6 +37,7 @@ export default function RootLayout({
         <div className="">
           {children}
         </div>
+        <Toaster />
       </body>
     </html>
   );
