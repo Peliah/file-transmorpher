@@ -1,7 +1,7 @@
-const Dropzone = () => {
+const   Dropzone = () => {
     return ( 
         <div>
-            
+
         </div>
      );
 }

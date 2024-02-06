@@ -5,8 +5,8 @@ const page = () => {
         <div className="space-y-16 pb-8">
       {/* Title + Desc */}
       <div className="space-y-6">
-        <h1 className="text-3xl md:text-4xl font-medium text-center">
-          Free Unlimited File Converter
+        <h1 className="text-3xl md:text-4xl font-semibold text-gray-800 text-center">
+          Free Unlimited File Transmorpher
         </h1>
         <p className="text-gray-400 text-base md:text-base text-center md:px-24 xl:px-44 2xl:px-52">
         File Transmorpher empowers users to effortlessly convert images, audio and video, enhancing productivity 
