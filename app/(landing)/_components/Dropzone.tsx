@@ -19,13 +19,12 @@ import { HiOutlineDownload } from "react-icons/hi";
 import { BiError } from "react-icons/bi";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import {
-    Select,
-    SelectContent,
-    SelectItem,
-    SelectTrigger,
-    SelectValue,
-  } from "@/components/ui/select"
-  
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select"
 import loadFfmpeg from "@/utils/load-ffmpeg";
 import type { Action } from "@/type";
 import { FFmpeg } from "@ffmpeg/ffmpeg";
@@ -67,7 +66,7 @@ const extensions = {
   audio: ["mp3", "wav", "ogg", "aac", "wma", "flac", "m4a"],
 };
 
-export default function  Dropzone() {
+export default function Dropzone() {
   // variables & hooks
   const { toast } = useToast();
   const [is_hover, setIsHover] = useState<boolean>(false);
@@ -137,12 +136,12 @@ export default function  Dropzone() {
         tmp_actions = tmp_actions.map((elt) =>
           elt === action
             ? {
-                ...elt,
-                is_converted: true,
-                is_converting: false,
-                url,
-                output,
-              }
+              ...elt,
+              is_converted: true,
+              is_converting: false,
+              url,
+              output,
+            }
             : elt
         );
         setActions(tmp_actions);
@@ -150,11 +149,11 @@ export default function  Dropzone() {
         tmp_actions = tmp_actions.map((elt) =>
           elt === action
             ? {
-                ...elt,
-                is_converted: false,
-                is_converting: false,
-                is_error: true,
-              }
+              ...elt,
+              is_converted: false,
+              is_converting: false,
+              is_error: true,
+            }
             : elt
         );
         setActions(tmp_actions);

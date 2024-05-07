@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import localFont from 'next/font/local'
 import { Toaster } from "@/components/ui/toaster";
+import Navbar from "./(landing)/_components/Navbar";
 
 const inter = Inter({ subsets: ["latin"] });
 const roboto = localFont({
@@ -34,6 +35,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={roboto.className}>
+        <Navbar />
         <div className="">
           {children}
         </div>
