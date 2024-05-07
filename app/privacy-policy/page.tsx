@@ -2,11 +2,11 @@ export default function PrivacyPolicy() {
     return (
         <div className="pt-32 min-h-screen lg:pt-36 2xl:pt-44 container max-w-4xl lg:max-w-6xl 2xl:max-w-7xl">
             <div className="space-y-12 text-md md:text-lg text-muted-foreground pb-4 md:pb-8">
-                <p>Effective Date: Wed 6 Sep 2023</p>
+                <p>Effective Date: Wed 8 May 2024</p>
                 <p>
-                    At Modifio, we are committed to safeguarding your privacy. This Privacy Policy outlines our practices
-                    regarding the collection, use, and disclosure of personal information when you use our website and
-                    services. Please read this policy carefully to understand how we handle your data.
+                    File Transmorpher ("we," "us," or "our") is committed to protecting the privacy of our users
+                    ("you" or "your"). This Privacy Policy explains how we collect, use, disclose, and safeguard
+                    your information when you use our file conversion service (the "Service").
                 </p>
                 <div className="space-y-2">
                     <h2 className="text-xl md:text-2xl font-medium text-muted-foreground">1. Information We Collect</h2>
@@ -85,12 +85,12 @@ export default function PrivacyPolicy() {
                     <h2 className="text-xl md:text-2xl font-medium text-muted-foreground">8. Contact Us</h2>
                     <p>
                         If you have any questions or concerns about this Privacy Policy or the data we collect, please
-                        contact us at souhailbenlhachemi1999@gmail.com.
+                        contact us at pelepoupa@gmail.com.
                     </p>
                 </div>
 
                 <p>
-                    By using Modifio, you agree to the practices outlined in this Privacy Policy. Please discontinue use of
+                    By using File Transmorpher, you agree to the practices outlined in this Privacy Policy. Please discontinue use of
                     our services if you do not agree with this policy. Thank you for trusting us with your privacy.
                 </p>
             </div>

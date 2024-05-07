@@ -1,36 +1,38 @@
 export default function About() {
     return (
 
-        <div className="pt-32 min-h-screen lg:pt-36 2xl:pt-44 container max-w-4xl lg:max-w-6xl 2xl:max-w-7xl">
-            <div className="space-y-12 text-md md:text-lg text-muted-foreground pb-4 md:pb-8">
+        <div className="pt-32 min-h-screen lg:pt-36 2xl:pt-44 container max-w-4xl lg:max-w-6xl 2xl:max-w-7xl  ">
+            <div className="space-y-12 text-md md:text-lg text-muted-foreground pb-4 md:pb-8 text-gray-500">
+                <h2 className="text-xl md:text-3xl font-bold  text-gray-700">Unleash the Power of Your Files: Introducing File Transmorpher</h2>
                 <p>
-                    Introducing Modifio, the ultimate multimedia conversion powerhouse that empowers you to transform images,
-                    audio files, and videos with unprecedented freedom, all at absolutely no cost! Say goodbye to limitations
-                    and hello to limitless creative possibilities.
+                    In today's digital world, we juggle an ever-growing sea of files in various formats.
+                    File Transmorpher is here to simplify your life by acting as your one-stop solution for file transformations.
+                    Our mission is to empower you to effortlessly convert your files between different formats, saving you time and frustration
+                    all at absolutely no cost!.
                 </p>
                 <div className="space-y-2">
-                    <h2 className="text-xl md:text-2xl font-medium text-muted-foreground">🖼️ Image Conversion:</h2>
+                    <h2 className="text-xl md:text-2xl font-bold text-muted-foreground text-gray-700">What We Do:</h2>
+                </div>
+
+                <div className="space-y-2">
+                    <h2 className="text-xl md:text-2xl font-medium text-muted-foreground">Effortless File Conversion:</h2>
                     <p>
-                        Unleash your creativity with our image conversion tool. Whether you need to resize, crop, rotate, or
-                        convert formats, we've got you covered. From JPEG to PNG, and everything in between, effortlessly
-                        enhance your visual content.
+                        Whether you need to convert documents, images, audio, or video, File Transmorpher handles it all with ease.
                     </p>
                 </div>
 
                 <div className="space-y-2">
-                    <h2 className="text-xl md:text-2xl font-medium text-muted-foreground">🎵 Audio Transformation:</h2>
+                    <h2 className="text-xl md:text-2xl font-medium text-muted-foreground">✅ Supported Formats: </h2>
                     <p>
-                        Turn up the volume on your audio projects! With our audio conversion capabilities, you can convert
-                        audio files between various formats like MP3, WAV, or AAC. Adjust bitrates, trim, and merge audio
-                        files to create your perfect soundtrack.
+                        We offer a wide range of supported formats, ensuring compatibility with your most common file types.
+                        (List some specific examples here)
                     </p>
                 </div>
-
                 <div className="space-y-2">
-                    <h2 className="text-xl md:text-2xl font-medium text-muted-foreground">🎥 Video Metamorphosis:</h2>
+                    <h2 className="text-xl md:text-2xl font-medium text-muted-foreground">✨ Seamless Transformations: </h2>
                     <p>
-                        Lights, camera, action! Edit and transcode videos without limits. From changing video formats to
-                        cutting and merging clips, you can create stunning video content for any platform or purpose.
+                        Our user-friendly interface makes the conversion process smooth and intuitive. Simply select your file,
+                        choose the desired output format, and let File Transmorpher do the rest.
                     </p>
                 </div>
 
@@ -62,35 +64,22 @@ export default function About() {
                 </div>
 
                 <div className="space-y-2">
-                    <h2 className="text-xl md:text-2xl font-medium text-muted-foreground">💡 User-Friendly Interface:</h2>
-                    <p>
-                        Our intuitive interface is designed for both beginners and experts, making the conversion process a
-                        breeze. No technical expertise required!
-                    </p>
-                </div>
-
-                <div className="space-y-2">
                     <h2 className="text-xl md:text-2xl font-medium text-muted-foreground">📈 Constantly Evolving:</h2>
                     <p>
-                        We're committed to staying ahead of the curve. Expect regular updates and new features to keep your
-                        multimedia experience fresh and exciting.
+                        The File Transmorpher team is dedicated to continuous improvement. We're constantly working on adding
+                        new features and expanding our range of supported formats to better serve your file conversion needs.
                     </p>
                 </div>
 
                 <div className="space-y-2">
                     <h2 className="text-xl md:text-2xl font-medium text-muted-foreground">
-                        🌟 It's Free, It's Powerful, It's Modifio:
+                        🌟 It's Free, It's Powerful, It's the File Transmorpher:
                     </h2>
                     <p>
                         Experience the freedom to convert images, audio, and video without boundaries. Elevate your multimedia
-                        projects with the unlimited potential of Modifio.
+                        projects with the unlimited potential of File Transmorpher.
                     </p>
                 </div>
-
-                <p>
-                    Join the revolution of content creators, professionals, and enthusiasts who are transforming the way they
-                    work with multimedia. Get started today and let your creativity shine like never before!
-                </p>
             </div>
         </div>
     );
