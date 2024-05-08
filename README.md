@@ -51,7 +51,7 @@ Special thanks to the contributors and the open-source community for their suppo
 
 ## Contact 📬
 
-For inquiries or feedback, please contact us at example@example.com.
+For inquiries or feedback, please contact us at pelepoupa@gmail.com.
 
 
 
