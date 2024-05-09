@@ -25,7 +25,6 @@ export const metadata: Metadata = {
   File Transmorpher provides reliable and efficient file conversion solutions tailored to diverse user needs.`,
   creator: `EPOUPA PELAYAH`,
   keywords: 'image converter, audio, video, unlimited image converter, unlimited audio converter',
-  icons: { icon: ['./logoLight.png'] }
 };
 
 export default function RootLayout({
@@ -35,6 +34,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/logoLight.png" />
+      </head>
       <body className={roboto.className}>
         <Navbar />
         <div className="">
