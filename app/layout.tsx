@@ -36,8 +36,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="logoLight.png" />
-        <link rel="apple-touch-icon" href="logoLight.png" />
+        <link rel="icon" href="logoDark.png" />
+        <link rel="apple-touch-icon" href="logoDark.png" />
         <meta name="theme-color" content="#000000" />
       </head>
       <body className={roboto.className}>
