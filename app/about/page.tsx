@@ -5,7 +5,7 @@ export default function About() {
             <div className="space-y-12 text-md md:text-lg text-muted-foreground pb-4 md:pb-8 text-gray-500">
                 <h2 className="text-xl md:text-3xl font-bold  text-gray-700">Unleash the Power of Your Files: Introducing File Transmorpher</h2>
                 <p>
-                    In today's digital world, we juggle an ever-growing sea of files in various formats.
+                    In today&apos;s digital world, we juggle an ever-growing sea of files in various formats.
                     File Transmorpher is here to simplify your life by acting as your one-stop solution for file transformations.
                     Our mission is to empower you to effortlessly convert your files between different formats, saving you time and frustration
                     all at absolutely no cost!.
@@ -42,7 +42,7 @@ export default function About() {
                     </h2>
                     <p>
                         Unlike other services, we believe in empowering your creativity without hidden fees or restrictions.
-                        You can convert as many images, audio files, and videos as your heart desires, and it won't cost you a
+                        You can convert as many images, audio files, and videos as your heart desires, and it won&apos;t cost you a
                         dime.
                     </p>
                 </div>
@@ -50,7 +50,7 @@ export default function About() {
                 <div className="space-y-2">
                     <h2 className="text-xl md:text-2xl font-medium text-muted-foreground">🌐 Accessible Anywhere:</h2>
                     <p>
-                        Access Modifio from any device with an internet connection. Whether you're on your computer, tablet,
+                        Access Modifio from any device with an internet connection. Whether you&apos;re on your computer, tablet,
                         or smartphone, you can use our platform with ease.
                     </p>
                 </div>
@@ -66,14 +66,14 @@ export default function About() {
                 <div className="space-y-2">
                     <h2 className="text-xl md:text-2xl font-medium text-muted-foreground">📈 Constantly Evolving:</h2>
                     <p>
-                        The File Transmorpher team is dedicated to continuous improvement. We're constantly working on adding
+                        The File Transmorpher team is dedicated to continuous improvement. We&apos;re constantly working on adding
                         new features and expanding our range of supported formats to better serve your file conversion needs.
                     </p>
                 </div>
 
                 <div className="space-y-2">
                     <h2 className="text-xl md:text-2xl font-medium text-muted-foreground">
-                        🌟 It's Free, It's Powerful, It's the File Transmorpher:
+                        🌟 It&apos;s Free, It&apos;s Powerful, It's the File Transmorpher:
                     </h2>
                     <p>
                         Experience the freedom to convert images, audio, and video without boundaries. Elevate your multimedia

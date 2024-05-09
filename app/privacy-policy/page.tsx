@@ -4,9 +4,9 @@ export default function PrivacyPolicy() {
             <div className="space-y-12 text-md md:text-lg text-muted-foreground pb-4 md:pb-8">
                 <p>Effective Date: Wed 8 May 2024</p>
                 <p>
-                    File Transmorpher ("we," "us," or "our") is committed to protecting the privacy of our users
-                    ("you" or "your"). This Privacy Policy explains how we collect, use, disclose, and safeguard
-                    your information when you use our file conversion service (the "Service").
+                    File Transmorpher (&quot;we,&quot; &quot;us,&quot; or &quot;our&quot;) is committed to protecting the privacy of our users
+                    (&quot;you&quot; or &quot;your&quot;). This Privacy Policy explains how we collect, use, disclose, and safeguard
+                    your information when you use our file conversion service (the &quot;Service&quot;).
                 </p>
                 <div className="space-y-2">
                     <h2 className="text-xl md:text-2xl font-medium text-muted-foreground">1. Information We Collect</h2>
@@ -61,7 +61,7 @@ export default function PrivacyPolicy() {
                 </div>
 
                 <div className="space-y-2">
-                    <h2 className="text-xl md:text-2xl font-medium text-muted-foreground">6. Children's Privacy</h2>
+                    <h2 className="text-xl md:text-2xl font-medium text-muted-foreground">6. Children&apos;s Privacy</h2>
                     <p>
                         Our website is not intended for children under the age of 13. We do not knowingly collect personal
                         information from children. If you are a parent or guardian and believe that your child has provided
