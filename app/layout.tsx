@@ -17,14 +17,15 @@ const roboto = localFont({
 })
 export const metadata: Metadata = {
   title: "File Transmorpher",
-  description: `File Transmorpher empowers users to effortlessly convert documents, 
+  description: `File Transmorpher a next level software that enables users to effortlessly convert 
   images, audio, video, and other file types, 
   enhancing productivity and streamlining workflows. 
   Whether converting documents for professional presentations, optimizing media files for online distribution, 
   or ensuring interoperability between software applications, 
   File Transmorpher provides reliable and efficient file conversion solutions tailored to diverse user needs.`,
   creator: `EPOUPA PELAYAH`,
-  keywords: 'image converter, audio, video, unlimited image converter, unlimited audio converter'
+  keywords: 'image converter, audio, video, unlimited image converter, unlimited audio converter',
+  icons: { icon: ['./logoLight.png'] }
 };
 
 export default function RootLayout({
