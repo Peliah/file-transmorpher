@@ -50,7 +50,7 @@ export default function About() {
                 <div className="space-y-2">
                     <h2 className="text-xl md:text-2xl font-medium text-muted-foreground">🌐 Accessible Anywhere:</h2>
                     <p>
-                        Access Modifio from any device with an internet connection. Whether you&apos;re on your computer, tablet,
+                        Access File Transmorpher from any device with an internet connection. Whether you&apos;re on your computer, tablet,
                         or smartphone, you can use our platform with ease.
                     </p>
                 </div>
