@@ -1,14 +1,8 @@
 "use client"
 
-import { useState } from "react";
 import Dropzone from "./_components/Dropzone";
-import { Button } from "@/components/ui/button";
 
 const page = () => {
-  const [isTruncated, setIsTruncated] = useState(false)
-  const toggleTruncation = () => {
-    setIsTruncated(!isTruncated);
-  };
   return (
     <div className="space-y-16 pb-8">
       {/* Title + Desc */}

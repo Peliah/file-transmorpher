@@ -73,7 +73,7 @@ export default function About() {
 
                 <div className="space-y-2">
                     <h2 className="text-xl md:text-2xl font-medium text-muted-foreground">
-                        🌟 It&apos;s Free, It&apos;s Powerful, It's the File Transmorpher:
+                        🌟 It&apos;s Free, It&apos;s Powerful, It&apos;s the File Transmorpher:
                     </h2>
                     <p>
                         Experience the freedom to convert images, audio, and video without boundaries. Elevate your multimedia

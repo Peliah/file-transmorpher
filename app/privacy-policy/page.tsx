@@ -25,7 +25,7 @@ export default function PrivacyPolicy() {
                     </h2>
                     <p>
                         We use the information collected through Google Analytics solely for the purpose of understanding
-                        user behavior and improving our website's performance. We do not sell, rent, or share this
+                        user behavior and improving our website&apos;s performance. We do not sell, rent, or share this
                         information with third parties.
                     </p>
                 </div>
